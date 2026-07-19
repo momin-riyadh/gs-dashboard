@@ -1,0 +1,78 @@
+{
+  "type": "form",
+  "breadcrumbs": [
+    {
+      "label": "Settings"
+    }
+  ],
+  "title": "Settings",
+  "subtitle": "Account, security, notification and workspace preferences.",
+  "icon": "bi-gear",
+  "sections": [
+    {
+      "title": "Profile",
+      "fields": [
+        {
+          "label": "Full name",
+          "type": "text",
+          "value": "Momin Khan"
+        },
+        {
+          "label": "Email",
+          "type": "email",
+          "value": "momin@gplex.com"
+        },
+        {
+          "label": "Phone",
+          "type": "text",
+          "value": "+880 1XXX-XXXXXX"
+        },
+        {
+          "label": "Bio",
+          "type": "textarea",
+          "value": "Frontend developer working on the GPlex call center platform."
+        }
+      ]
+    },
+    {
+      "title": "Notifications",
+      "fields": [
+        {
+          "label": "Email notifications",
+          "type": "switch",
+          "checked": true
+        },
+        {
+          "label": "Push notifications",
+          "type": "switch",
+          "checked": false
+        },
+        {
+          "label": "Weekly digest",
+          "type": "switch",
+          "checked": true
+        }
+      ]
+    },
+    {
+      "title": "Security",
+      "fields": [
+        {
+          "label": "Two-factor authentication",
+          "type": "switch",
+          "checked": true
+        },
+        {
+          "label": "Current password",
+          "type": "password",
+          "value": ""
+        },
+        {
+          "label": "New password",
+          "type": "password",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}

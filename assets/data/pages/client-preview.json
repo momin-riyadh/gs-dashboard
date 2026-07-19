@@ -1,0 +1,65 @@
+{
+  "type": "dashboard",
+  "breadcrumbs": [
+    {
+      "label": "Client Preview"
+    }
+  ],
+  "title": "Client Preview",
+  "subtitle": "Same shell, using the simple light/dark toggle meant for client-facing deployments.",
+  "stats": [
+    {
+      "label": "Total Revenue",
+      "value": "$48,290",
+      "delta": "12.4%",
+      "direction": "up",
+      "icon": "bi-graph-up-arrow",
+      "tone": "primary"
+    },
+    {
+      "label": "Active Users",
+      "value": "3,842",
+      "delta": "5.2%",
+      "direction": "up",
+      "icon": "bi-people",
+      "tone": "info"
+    },
+    {
+      "label": "Open Orders",
+      "value": "128",
+      "delta": "2.1%",
+      "direction": "down",
+      "icon": "bi-cart3",
+      "tone": "warning"
+    },
+    {
+      "label": "Support Tickets",
+      "value": "17",
+      "delta": "9.8%",
+      "direction": "down",
+      "icon": "bi-life-preserver",
+      "tone": "success"
+    }
+  ],
+  "chart": {
+    "title": "Revenue overview",
+    "note": "Wire up Chart.js / ApexCharts here \u2014 the container is already responsive."
+  },
+  "panel": {
+    "title": "Recent Activity",
+    "items": [
+      {
+        "title": "Invoice #10234 paid",
+        "meta": "2h ago"
+      },
+      {
+        "title": "New user: Sara K.",
+        "meta": "4h ago"
+      },
+      {
+        "title": "Server backup completed",
+        "meta": "1d ago"
+      }
+    ]
+  }
+}

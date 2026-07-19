@@ -1,0 +1,61 @@
+{
+  "type": "ui-elements",
+  "breadcrumbs": [
+    {
+      "label": "UI Elements"
+    }
+  ],
+  "title": "UI Elements",
+  "subtitle": "Buttons, badges, alerts, and the search / file dropdowns shown below.",
+  "icon": "bi-layers",
+  "buttons": [
+    {
+      "label": "Primary",
+      "class": "btn-nx-primary"
+    },
+    {
+      "label": "Secondary",
+      "class": "btn-outline-secondary"
+    },
+    {
+      "label": "Success",
+      "class": "btn-success"
+    },
+    {
+      "label": "Danger",
+      "class": "btn-danger"
+    }
+  ],
+  "badges": [
+    {
+      "label": "Active",
+      "tone": "success"
+    },
+    {
+      "label": "Pending",
+      "tone": "warning"
+    },
+    {
+      "label": "Failed",
+      "tone": "danger"
+    },
+    {
+      "label": "Info",
+      "tone": "info"
+    }
+  ],
+  "alerts": [
+    {
+      "text": "Your changes have been saved.",
+      "tone": "success"
+    },
+    {
+      "text": "Please double check the highlighted fields.",
+      "tone": "warning"
+    },
+    {
+      "text": "Something went wrong. Try again.",
+      "tone": "danger"
+    }
+  ]
+}

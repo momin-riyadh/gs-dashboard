@@ -1,0 +1,50 @@
+{
+  "type": "cards",
+  "breadcrumbs": [
+    {
+      "label": "Apps"
+    }
+  ],
+  "title": "Apps",
+  "subtitle": "Installed integrations and connected applications.",
+  "icon": "bi-box-seam",
+  "items": [
+    {
+      "icon": "bi-chat-square-dots",
+      "title": "Slack",
+      "desc": "Team messaging and alerts",
+      "status": "Connected"
+    },
+    {
+      "icon": "bi-code-slash",
+      "title": "GitHub",
+      "desc": "Source control & CI",
+      "status": "Connected"
+    },
+    {
+      "icon": "bi-envelope-at",
+      "title": "Google Workspace",
+      "desc": "Calendar & email sync",
+      "status": "Not connected"
+    },
+    {
+      "icon": "bi-credit-card",
+      "title": "Stripe",
+      "desc": "Payments & billing",
+      "status": "Connected"
+    },
+    {
+      "icon": "bi-kanban",
+      "title": "Trello",
+      "desc": "Task boards",
+      "status": "Not connected"
+    },
+    {
+      "icon": "bi-cloud-arrow-up",
+      "title": "Dropbox",
+      "desc": "File sync",
+      "status": "Connected"
+    }
+  ],
+  "layout": "grid"
+}

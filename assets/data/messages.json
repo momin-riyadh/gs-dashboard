@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Ayesha Rahman",
+    "avatar": "AR",
+    "body": "Can you review the CRM dashboard mock?",
+    "time": "5m ago",
+    "unread": true
+  },
+  {
+    "name": "Tom Becker",
+    "avatar": "TB",
+    "body": "Deployed the fix to staging, ready to test.",
+    "time": "48m ago",
+    "unread": true
+  },
+  {
+    "name": "Priya Nair",
+    "avatar": "PN",
+    "body": "Thanks, that resolved the ticket \ud83c\udf89",
+    "time": "Yesterday",
+    "unread": false
+  }
+]

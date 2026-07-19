@@ -1,0 +1,69 @@
+{
+  "type": "dashboard",
+  "breadcrumbs": [
+    {
+      "label": "Dashboard",
+      "href": "index.html"
+    },
+    {
+      "label": "Marketing"
+    }
+  ],
+  "title": "Marketing",
+  "subtitle": "Campaign performance across channels and audiences.",
+  "stats": [
+    {
+      "label": "Campaign Reach",
+      "value": "1.2M",
+      "delta": "15.3%",
+      "direction": "up",
+      "icon": "bi-megaphone",
+      "tone": "primary"
+    },
+    {
+      "label": "Click-through Rate",
+      "value": "4.8%",
+      "delta": "0.6%",
+      "direction": "up",
+      "icon": "bi-cursor",
+      "tone": "info"
+    },
+    {
+      "label": "Cost per Lead",
+      "value": "$6.20",
+      "delta": "3.1%",
+      "direction": "down",
+      "icon": "bi-tag",
+      "tone": "success"
+    },
+    {
+      "label": "Email Open Rate",
+      "value": "32.4%",
+      "delta": "1.8%",
+      "direction": "up",
+      "icon": "bi-envelope-open",
+      "tone": "warning"
+    }
+  ],
+  "chart": {
+    "title": "Channel performance",
+    "note": "Spend vs. conversions by channel."
+  },
+  "panel": {
+    "title": "Campaign Performance",
+    "items": [
+      {
+        "title": "Summer Sale Email",
+        "meta": "24.1% open rate"
+      },
+      {
+        "title": "Instagram Ads",
+        "meta": "3.8% CTR"
+      },
+      {
+        "title": "Referral Program",
+        "meta": "142 signups"
+      }
+    ]
+  }
+}

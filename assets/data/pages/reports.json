@@ -1,0 +1,94 @@
+{
+  "type": "table",
+  "breadcrumbs": [
+    {
+      "label": "Reports"
+    }
+  ],
+  "title": "Reports",
+  "subtitle": "Scheduled and on-demand reports across the business.",
+  "icon": "bi-bar-chart",
+  "columns": [
+    "Report",
+    "Type",
+    "Generated",
+    "Status",
+    ""
+  ],
+  "rows": [
+    {
+      "cells": [
+        "Q2 Revenue Summary",
+        "Financial",
+        "Jul 1, 2026",
+        {
+          "badge": "Ready",
+          "tone": "success"
+        },
+        {
+          "icon": "bi-download"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "User Growth Analysis",
+        "Analytics",
+        "Jul 5, 2026",
+        {
+          "badge": "Ready",
+          "tone": "success"
+        },
+        {
+          "icon": "bi-download"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "Churn Deep-dive",
+        "Analytics",
+        "Jul 9, 2026",
+        {
+          "badge": "Processing",
+          "tone": "warning"
+        },
+        {
+          "icon": "bi-download"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "Marketing Spend Audit",
+        "Financial",
+        "Jul 11, 2026",
+        {
+          "badge": "Ready",
+          "tone": "success"
+        },
+        {
+          "icon": "bi-download"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "Support SLA Report",
+        "Operations",
+        "Jul 12, 2026",
+        {
+          "badge": "Scheduled",
+          "tone": "info"
+        },
+        {
+          "icon": "bi-download"
+        }
+      ]
+    }
+  ],
+  "primaryAction": {
+    "icon": "bi-plus-lg",
+    "label": "New Report"
+  }
+}

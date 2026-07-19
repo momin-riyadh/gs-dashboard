@@ -1,0 +1,69 @@
+{
+  "type": "dashboard",
+  "breadcrumbs": [
+    {
+      "label": "Dashboard",
+      "href": "index.html"
+    },
+    {
+      "label": "Analytics"
+    }
+  ],
+  "title": "Analytics",
+  "subtitle": "Traffic, conversion and engagement metrics for your product.",
+  "stats": [
+    {
+      "label": "Page Views",
+      "value": "128,430",
+      "delta": "8.1%",
+      "direction": "up",
+      "icon": "bi-eye",
+      "tone": "info"
+    },
+    {
+      "label": "Avg. Session",
+      "value": "4m 12s",
+      "delta": "3.4%",
+      "direction": "up",
+      "icon": "bi-stopwatch",
+      "tone": "primary"
+    },
+    {
+      "label": "Bounce Rate",
+      "value": "38.2%",
+      "delta": "1.9%",
+      "direction": "down",
+      "icon": "bi-arrow-down-right",
+      "tone": "warning"
+    },
+    {
+      "label": "Conversion Rate",
+      "value": "3.6%",
+      "delta": "0.4%",
+      "direction": "up",
+      "icon": "bi-graph-up",
+      "tone": "success"
+    }
+  ],
+  "chart": {
+    "title": "Traffic overview",
+    "note": "Sessions, users and pageviews over time \u2014 drop a chart library into this container."
+  },
+  "panel": {
+    "title": "Top Pages",
+    "items": [
+      {
+        "title": "/pricing",
+        "meta": "12,402 views"
+      },
+      {
+        "title": "/blog/growth-tips",
+        "meta": "8,214 views"
+      },
+      {
+        "title": "/features",
+        "meta": "6,903 views"
+      }
+    ]
+  }
+}

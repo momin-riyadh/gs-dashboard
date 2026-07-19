@@ -1,0 +1,62 @@
+{
+  "type": "list",
+  "breadcrumbs": [
+    {
+      "label": "Messages"
+    }
+  ],
+  "title": "Messages",
+  "subtitle": "Direct messages and team conversations.",
+  "icon": "bi-chat-dots",
+  "items": [
+    {
+      "avatar": "AR",
+      "name": "Ayesha Rahman",
+      "preview": "Can you review the CRM dashboard mock?",
+      "time": "5m ago",
+      "unread": true
+    },
+    {
+      "avatar": "TB",
+      "name": "Tom Becker",
+      "preview": "Deployed the fix to staging, ready to test.",
+      "time": "48m ago",
+      "unread": true
+    },
+    {
+      "avatar": "PN",
+      "name": "Priya Nair",
+      "preview": "Thanks, that resolved the ticket.",
+      "time": "Yesterday",
+      "unread": false
+    },
+    {
+      "avatar": "KC",
+      "name": "Karim Chowdhury",
+      "preview": "Sending over the Q3 budget draft shortly.",
+      "time": "2d ago",
+      "unread": false
+    },
+    {
+      "avatar": "LF",
+      "name": "Lena Fischer",
+      "preview": "Can we push the demo to Friday?",
+      "time": "3d ago",
+      "unread": true
+    },
+    {
+      "avatar": "DA",
+      "name": "Diego Alvarez",
+      "preview": "Approved the design changes.",
+      "time": "4d ago",
+      "unread": false
+    },
+    {
+      "avatar": "SK",
+      "name": "Sara Khatun",
+      "preview": "Client asked for one more revision round.",
+      "time": "5d ago",
+      "unread": false
+    }
+  ]
+}

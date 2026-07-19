@@ -1,0 +1,63 @@
+{
+  "type": "form",
+  "breadcrumbs": [
+    {
+      "label": "Forms"
+    }
+  ],
+  "title": "Forms",
+  "subtitle": "Form layouts, inputs, validation and wizards.",
+  "icon": "bi-ui-checks",
+  "sections": [
+    {
+      "title": "Basic Inputs",
+      "fields": [
+        {
+          "label": "Full name",
+          "type": "text",
+          "value": ""
+        },
+        {
+          "label": "Email address",
+          "type": "email",
+          "value": ""
+        },
+        {
+          "label": "Country",
+          "type": "select",
+          "options": [
+            "Bangladesh",
+            "United States",
+            "United Kingdom",
+            "Canada"
+          ]
+        },
+        {
+          "label": "Message",
+          "type": "textarea",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "title": "Toggles & Checks",
+      "fields": [
+        {
+          "label": "Subscribe to newsletter",
+          "type": "switch",
+          "checked": true
+        },
+        {
+          "label": "Accept terms and conditions",
+          "type": "checkbox",
+          "checked": false
+        },
+        {
+          "label": "Remember this device",
+          "type": "checkbox",
+          "checked": true
+        }
+      ]
+    }
+  ]
+}

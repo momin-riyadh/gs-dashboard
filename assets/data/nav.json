@@ -1,0 +1,195 @@
+[
+  {
+    "id": "dashboard",
+    "label": "Dashboard",
+    "icon": "bi-house-door",
+    "children": [
+      {
+        "label": "Default",
+        "href": "index.html",
+        "icon": "bi-grid-1x2"
+      },
+      {
+        "label": "Analytics",
+        "href": "dashboard-analytics.html",
+        "icon": "bi-graph-up"
+      },
+      {
+        "label": "eCommerce",
+        "icon": "bi-shop",
+        "href": "dashboard-ecommerce.html",
+        "children": [
+          {
+            "label": "Products",
+            "href": "dashboard-ecommerce.html#products",
+            "icon": "bi-box-seam"
+          },
+          {
+            "label": "Orders",
+            "href": "dashboard-ecommerce.html#orders",
+            "icon": "bi-cart3"
+          },
+          {
+            "label": "Customers",
+            "href": "dashboard-ecommerce.html#customers",
+            "icon": "bi-people"
+          },
+          {
+            "label": "Coupons",
+            "href": "dashboard-ecommerce.html#coupons",
+            "icon": "bi-tag"
+          }
+        ]
+      },
+      {
+        "label": "CRM",
+        "icon": "bi-person-lines-fill",
+        "href": "dashboard-crm.html",
+        "children": [
+          {
+            "label": "Leads",
+            "href": "dashboard-crm.html#leads",
+            "icon": "bi-person-plus"
+          },
+          {
+            "label": "Deals",
+            "href": "dashboard-crm.html#deals",
+            "icon": "bi-handshake"
+          },
+          {
+            "label": "Contacts",
+            "href": "dashboard-crm.html#contacts",
+            "icon": "bi-person-vcard"
+          }
+        ]
+      },
+      {
+        "label": "Project Management",
+        "href": "dashboard-project-management.html",
+        "icon": "bi-kanban"
+      },
+      {
+        "label": "Finance",
+        "href": "dashboard-finance.html",
+        "icon": "bi-cash-coin"
+      },
+      {
+        "label": "Marketing",
+        "href": "dashboard-marketing.html",
+        "icon": "bi-megaphone"
+      },
+      {
+        "label": "SaaS",
+        "href": "dashboard-saas.html",
+        "icon": "bi-cloud-check"
+      },
+      {
+        "label": "AI Insights",
+        "href": "dashboard-ai-insights.html",
+        "icon": "bi-stars"
+      }
+    ]
+  },
+  {
+    "id": "users",
+    "label": "Users",
+    "icon": "bi-people",
+    "href": "users.html"
+  },
+  {
+    "id": "projects",
+    "label": "Projects",
+    "icon": "bi-briefcase",
+    "href": "projects.html"
+  },
+  {
+    "id": "orders",
+    "label": "Orders",
+    "icon": "bi-cart3",
+    "href": "orders.html"
+  },
+  {
+    "id": "files",
+    "label": "File Manager",
+    "icon": "bi-folder2-open",
+    "href": "file-manager.html"
+  },
+  {
+    "id": "messages",
+    "label": "Messages",
+    "icon": "bi-chat-dots",
+    "href": "messages.html"
+  },
+  {
+    "id": "calendar",
+    "label": "Calendar",
+    "icon": "bi-calendar3",
+    "href": "calendar.html"
+  },
+  {
+    "id": "finance",
+    "label": "Finance",
+    "icon": "bi-currency-dollar",
+    "href": "finance.html"
+  },
+  {
+    "id": "reports",
+    "label": "Reports",
+    "icon": "bi-bar-chart",
+    "href": "reports.html"
+  },
+  {
+    "id": "invoices",
+    "label": "Invoices",
+    "icon": "bi-file-earmark-text",
+    "href": "invoices.html"
+  },
+  {
+    "id": "tables",
+    "label": "Tables",
+    "icon": "bi-table",
+    "href": "tables.html"
+  },
+  {
+    "id": "charts",
+    "label": "Charts",
+    "icon": "bi-pie-chart",
+    "href": "charts.html"
+  },
+  {
+    "id": "apps",
+    "label": "Apps",
+    "icon": "bi-box-seam",
+    "href": "apps.html"
+  },
+  {
+    "id": "ai-tools",
+    "label": "AI Tools",
+    "icon": "bi-stars",
+    "href": "ai-tools.html"
+  },
+  {
+    "id": "pages",
+    "label": "Pages",
+    "icon": "bi-files",
+    "href": "pages.html"
+  },
+  {
+    "id": "forms",
+    "label": "Forms",
+    "icon": "bi-ui-checks",
+    "href": "forms.html"
+  },
+  {
+    "id": "ui-elements",
+    "label": "UI Elements",
+    "icon": "bi-layers",
+    "href": "ui-elements.html"
+  },
+  {
+    "id": "settings",
+    "label": "Settings",
+    "icon": "bi-gear",
+    "href": "settings.html"
+  }
+]

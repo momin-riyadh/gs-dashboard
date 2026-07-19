@@ -1,0 +1,50 @@
+{
+  "type": "cards",
+  "breadcrumbs": [
+    {
+      "label": "File Manager"
+    }
+  ],
+  "title": "File Manager",
+  "subtitle": "Upload, organize and share files with your team.",
+  "icon": "bi-folder2-open",
+  "items": [
+    {
+      "icon": "bi-folder-fill",
+      "title": "Design Assets",
+      "meta": "24 files",
+      "tone": "warning"
+    },
+    {
+      "icon": "bi-folder-fill",
+      "title": "Contracts",
+      "meta": "8 files",
+      "tone": "warning"
+    },
+    {
+      "icon": "bi-folder-fill",
+      "title": "Marketing",
+      "meta": "15 files",
+      "tone": "warning"
+    },
+    {
+      "icon": "bi-file-earmark-pdf",
+      "title": "Q2-report.pdf",
+      "meta": "2.4 MB",
+      "tone": "danger"
+    },
+    {
+      "icon": "bi-file-earmark-spreadsheet",
+      "title": "budget-2026.xlsx",
+      "meta": "860 KB",
+      "tone": "success"
+    },
+    {
+      "icon": "bi-file-earmark-image",
+      "title": "logo-final.png",
+      "meta": "1.1 MB",
+      "tone": "info"
+    }
+  ],
+  "layout": "files"
+}

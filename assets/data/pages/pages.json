@@ -1,0 +1,44 @@
+{
+  "type": "cards",
+  "breadcrumbs": [
+    {
+      "label": "Pages"
+    }
+  ],
+  "title": "Pages",
+  "subtitle": "Static pages: pricing, FAQ, about and more.",
+  "icon": "bi-files",
+  "items": [
+    {
+      "icon": "bi-question-circle",
+      "title": "FAQ",
+      "desc": "Frequently asked questions"
+    },
+    {
+      "icon": "bi-tag",
+      "title": "Pricing",
+      "desc": "Plans and pricing tiers"
+    },
+    {
+      "icon": "bi-info-circle",
+      "title": "About Us",
+      "desc": "Company story and team"
+    },
+    {
+      "icon": "bi-shield-lock",
+      "title": "Privacy Policy",
+      "desc": "Data handling and privacy"
+    },
+    {
+      "icon": "bi-file-text",
+      "title": "Terms of Service",
+      "desc": "Legal terms"
+    },
+    {
+      "icon": "bi-envelope",
+      "title": "Contact",
+      "desc": "Get in touch"
+    }
+  ],
+  "layout": "grid"
+}

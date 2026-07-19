@@ -1,0 +1,90 @@
+{
+  "type": "table",
+  "breadcrumbs": [
+    {
+      "label": "Invoices"
+    }
+  ],
+  "title": "Invoices",
+  "subtitle": "Create, send and track invoice status.",
+  "icon": "bi-file-earmark-text",
+  "columns": [
+    "Invoice",
+    "Client",
+    "Issued",
+    "Due",
+    "Amount",
+    "Status"
+  ],
+  "rows": [
+    {
+      "cells": [
+        "INV-2041",
+        "Acme Corp",
+        "Jul 1, 2026",
+        "Jul 15, 2026",
+        "$4,200",
+        {
+          "badge": "Paid",
+          "tone": "success"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "INV-2042",
+        "Nova Industries",
+        "Jul 3, 2026",
+        "Jul 17, 2026",
+        "$1,860",
+        {
+          "badge": "Pending",
+          "tone": "warning"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "INV-2043",
+        "Bright Retail Co.",
+        "Jul 5, 2026",
+        "Jul 19, 2026",
+        "$9,400",
+        {
+          "badge": "Overdue",
+          "tone": "danger"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "INV-2044",
+        "Vertex Labs",
+        "Jul 6, 2026",
+        "Jul 20, 2026",
+        "$2,100",
+        {
+          "badge": "Paid",
+          "tone": "success"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "INV-2045",
+        "Orbit Media",
+        "Jul 8, 2026",
+        "Jul 22, 2026",
+        "$650",
+        {
+          "badge": "Pending",
+          "tone": "warning"
+        }
+      ]
+    }
+  ],
+  "primaryAction": {
+    "icon": "bi-plus-lg",
+    "label": "New Invoice"
+  }
+}

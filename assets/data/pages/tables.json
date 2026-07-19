@@ -1,0 +1,74 @@
+{
+  "type": "table",
+  "breadcrumbs": [
+    {
+      "label": "Tables"
+    }
+  ],
+  "title": "Tables",
+  "subtitle": "Data table components: sorting, pagination and filters \u2014 sample inventory dataset.",
+  "icon": "bi-table",
+  "columns": [
+    "SKU",
+    "Product",
+    "Category",
+    "Stock",
+    "Price"
+  ],
+  "rows": [
+    {
+      "cells": [
+        "SKU-1001",
+        "Wireless Headphones",
+        "Audio",
+        "342",
+        "$89.00"
+      ]
+    },
+    {
+      "cells": [
+        "SKU-1002",
+        "Smart Watch",
+        "Wearables",
+        "288",
+        "$149.00"
+      ]
+    },
+    {
+      "cells": [
+        "SKU-1003",
+        "Desk Lamp",
+        "Home",
+        "201",
+        "$34.00"
+      ]
+    },
+    {
+      "cells": [
+        "SKU-1004",
+        "Mechanical Keyboard",
+        "Accessories",
+        "97",
+        "$110.00"
+      ]
+    },
+    {
+      "cells": [
+        "SKU-1005",
+        "USB-C Hub",
+        "Accessories",
+        "412",
+        "$29.00"
+      ]
+    },
+    {
+      "cells": [
+        "SKU-1006",
+        "Standing Desk",
+        "Home",
+        "24",
+        "$399.00"
+      ]
+    }
+  ]
+}

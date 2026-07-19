@@ -1,0 +1,34 @@
+[
+  {
+    "icon": "bi-file-earmark-check",
+    "color": "success",
+    "title": "Invoice #10234 paid",
+    "body": "Payment received from Acme Corp.",
+    "time": "2m ago",
+    "unread": true
+  },
+  {
+    "icon": "bi-person-plus",
+    "color": "info",
+    "title": "New user registered",
+    "body": "Sara K. just created an account.",
+    "time": "1h ago",
+    "unread": true
+  },
+  {
+    "icon": "bi-exclamation-triangle",
+    "color": "warning",
+    "title": "Server load high",
+    "body": "API response time above threshold.",
+    "time": "3h ago",
+    "unread": true
+  },
+  {
+    "icon": "bi-cloud-check",
+    "color": "primary",
+    "title": "Backup completed",
+    "body": "Nightly backup finished successfully.",
+    "time": "1d ago",
+    "unread": false
+  }
+]

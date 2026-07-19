@@ -1,0 +1,108 @@
+{
+  "type": "table",
+  "breadcrumbs": [
+    {
+      "label": "Orders"
+    }
+  ],
+  "title": "Orders",
+  "subtitle": "Every order placed through your store or point of sale, in one queue.",
+  "icon": "bi-cart3",
+  "columns": [
+    "Order",
+    "Customer",
+    "Date",
+    "Amount",
+    "Status"
+  ],
+  "rows": [
+    {
+      "cells": [
+        "#10231",
+        "Ayesha Rahman",
+        "Jul 12, 2026",
+        "$128.40",
+        {
+          "badge": "Delivered",
+          "tone": "success"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "#10232",
+        "Tom Becker",
+        "Jul 12, 2026",
+        "$76.00",
+        {
+          "badge": "Processing",
+          "tone": "warning"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "#10233",
+        "Priya Nair",
+        "Jul 11, 2026",
+        "$342.10",
+        {
+          "badge": "Delivered",
+          "tone": "success"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "#10234",
+        "Karim Chowdhury",
+        "Jul 11, 2026",
+        "$19.99",
+        {
+          "badge": "Cancelled",
+          "tone": "danger"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "#10235",
+        "Lena Fischer",
+        "Jul 10, 2026",
+        "$210.00",
+        {
+          "badge": "Shipped",
+          "tone": "info"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "#10236",
+        "Diego Alvarez",
+        "Jul 10, 2026",
+        "$58.30",
+        {
+          "badge": "Delivered",
+          "tone": "success"
+        }
+      ]
+    },
+    {
+      "cells": [
+        "#10237",
+        "Sara Khatun",
+        "Jul 9, 2026",
+        "$144.20",
+        {
+          "badge": "Processing",
+          "tone": "warning"
+        }
+      ]
+    }
+  ],
+  "primaryAction": {
+    "icon": "bi-plus-lg",
+    "label": "New Order"
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "type": "table",
+  "breadcrumbs": [
+    {
+      "label": "Users"
+    }
+  ],
+  "title": "Users",
+  "subtitle": "A directory of every teammate and customer with access, their role, and last activity.",
+  "icon": "bi-people",
+  "columns": [
+    "User",
+    "Role",
+    "Status",
+    "Joined",
+    ""
+  ],
+  "rows": [
+    {
+      "cells": [
+        {
+          "avatar": "AR",
+          "name": "Ayesha Rahman",
+          "sub": "ayesha@gplex.com"
+        },
+        "Admin",
+        {
+          "badge": "Active",
+          "tone": "success"
+        },
+        "Jan 3, 2026",
+        {
+          "icon": "bi-three-dots"
+        }
+      ]
+    },
+    {
+      "cells": [
+        {
+          "avatar": "TB",
+          "name": "Tom Becker",
+          "sub": "tom@gplex.com"
+        },
+        "Editor",
+        {
+          "badge": "Active",
+          "tone": "success"
+        },
+        "Feb 14, 2026",
+        {
+          "icon": "bi-three-dots"
+        }
+      ]
+    },
+    {
+      "cells": [
+        {
+          "avatar": "PN",
+          "name": "Priya Nair",
+          "sub": "priya@gplex.com"
+        },
+        "Viewer",
+        {
+          "badge": "Invited",
+          "tone": "warning"
+        },
+        "Mar 2, 2026",
+        {
+          "icon": "bi-three-dots"
+        }
+      ]
+    },
+    {
+      "cells": [
+        {
+          "avatar": "KC",
+          "name": "Karim Chowdhury",
+          "sub": "karim@gplex.com"
+        },
+        "Admin",
+        {
+          "badge": "Active",
+          "tone": "success"
+        },
+        "Mar 19, 2026",
+        {
+          "icon": "bi-three-dots"
+        }
+      ]
+    },
+    {
+      "cells": [
+        {
+          "avatar": "LF",
+          "name": "Lena Fischer",
+          "sub": "lena@gplex.com"
+        },
+        "Editor",
+        {
+          "badge": "Suspended",
+          "tone": "danger"
+        },
+        "Apr 30, 2026",
+        {
+          "icon": "bi-three-dots"
+        }
+      ]
+    },
+    {
+      "cells": [
+        {
+          "avatar": "DA",
+          "name": "Diego Alvarez",
+          "sub": "diego@gplex.com"
+        },
+        "Viewer",
+        {
+          "badge": "Active",
+          "tone": "success"
+        },
+        "May 21, 2026",
+        {
+          "icon": "bi-three-dots"
+        }
+      ]
+    },
+    {
+      "cells": [
+        {
+          "avatar": "SK",
+          "name": "Sara Khatun",
+          "sub": "sara@gplex.com"
+        },
+        "Editor",
+        {
+          "badge": "Active",
+          "tone": "success"
+        },
+        "Jun 8, 2026",
+        {
+          "icon": "bi-three-dots"
+        }
+      ]
+    },
+    {
+      "cells": [
+        {
+          "avatar": "MW",
+          "name": "Marcus Webb",
+          "sub": "marcus@gplex.com"
+        },
+        "Viewer",
+        {
+          "badge": "Invited",
+          "tone": "warning"
+        },
+        "Jul 1, 2026",
+        {
+          "icon": "bi-three-dots"
+        }
+      ]
+    }
+  ],
+  "primaryAction": {
+    "icon": "bi-person-plus",
+    "label": "Add User"
+  }
+}

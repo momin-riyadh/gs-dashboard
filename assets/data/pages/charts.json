@@ -1,0 +1,43 @@
+{
+  "type": "charts",
+  "breadcrumbs": [
+    {
+      "label": "Charts"
+    }
+  ],
+  "title": "Charts",
+  "subtitle": "A library of chart components ready to drop into any page.",
+  "icon": "bi-pie-chart",
+  "charts": [
+    {
+      "title": "Revenue",
+      "kind": "Bar chart",
+      "icon": "bi-bar-chart"
+    },
+    {
+      "title": "User Growth",
+      "kind": "Line chart",
+      "icon": "bi-graph-up"
+    },
+    {
+      "title": "Traffic Sources",
+      "kind": "Pie chart",
+      "icon": "bi-pie-chart"
+    },
+    {
+      "title": "Conversion Funnel",
+      "kind": "Funnel chart",
+      "icon": "bi-filter"
+    },
+    {
+      "title": "Regional Split",
+      "kind": "Donut chart",
+      "icon": "bi-circle"
+    },
+    {
+      "title": "Activity Heatmap",
+      "kind": "Heatmap",
+      "icon": "bi-grid-3x3"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "type": "cards",
+  "breadcrumbs": [
+    {
+      "label": "AI Tools"
+    }
+  ],
+  "title": "AI Tools",
+  "subtitle": "AI-assisted actions: summaries, suggestions and automations.",
+  "icon": "bi-stars",
+  "items": [
+    {
+      "icon": "bi-stars",
+      "title": "Smart Summaries",
+      "desc": "Auto-generate weekly performance summaries"
+    },
+    {
+      "icon": "bi-magic",
+      "title": "Content Assistant",
+      "desc": "Draft marketing copy from a prompt"
+    },
+    {
+      "icon": "bi-graph-up-arrow",
+      "title": "Forecast Engine",
+      "desc": "Predict revenue and churn trends"
+    },
+    {
+      "icon": "bi-search-heart",
+      "title": "Semantic Search",
+      "desc": "Search records by meaning, not keywords"
+    },
+    {
+      "icon": "bi-shield-check",
+      "title": "Anomaly Detection",
+      "desc": "Flag unusual activity automatically"
+    },
+    {
+      "icon": "bi-chat-dots",
+      "title": "Support Copilot",
+      "desc": "Suggested replies for support tickets"
+    }
+  ],
+  "layout": "grid"
+}

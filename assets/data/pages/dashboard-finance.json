@@ -1,0 +1,69 @@
+{
+  "type": "dashboard",
+  "breadcrumbs": [
+    {
+      "label": "Dashboard",
+      "href": "index.html"
+    },
+    {
+      "label": "Finance"
+    }
+  ],
+  "title": "Finance",
+  "subtitle": "Cash flow, burn rate and account balances.",
+  "stats": [
+    {
+      "label": "Cash Balance",
+      "value": "$214,900",
+      "delta": "6.8%",
+      "direction": "up",
+      "icon": "bi-bank",
+      "tone": "primary"
+    },
+    {
+      "label": "Monthly Burn",
+      "value": "$38,200",
+      "delta": "2.4%",
+      "direction": "up",
+      "icon": "bi-graph-down-arrow",
+      "tone": "warning"
+    },
+    {
+      "label": "Runway",
+      "value": "14.1 mo",
+      "delta": "0.6",
+      "direction": "down",
+      "icon": "bi-hourglass-split",
+      "tone": "danger"
+    },
+    {
+      "label": "Net Profit",
+      "value": "$19,340",
+      "delta": "9.2%",
+      "direction": "up",
+      "icon": "bi-piggy-bank",
+      "tone": "success"
+    }
+  ],
+  "chart": {
+    "title": "Cash flow",
+    "note": "Inflow vs. outflow over time."
+  },
+  "panel": {
+    "title": "Recent Transactions",
+    "items": [
+      {
+        "title": "Payroll - July",
+        "meta": "-$28,400"
+      },
+      {
+        "title": "Client payment - Acme",
+        "meta": "+$14,200"
+      },
+      {
+        "title": "AWS invoice",
+        "meta": "-$1,860"
+      }
+    ]
+  }
+}

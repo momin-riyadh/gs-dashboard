@@ -1,0 +1,220 @@
+{
+  "type": "calendar",
+  "breadcrumbs": [
+    {
+      "label": "Calendar"
+    }
+  ],
+  "title": "Calendar",
+  "subtitle": "Meetings, deadlines and reminders on a shared calendar.",
+  "icon": "bi-calendar3",
+  "month": "July 2026",
+  "today": 16,
+  "weekdays": [
+    "Sun",
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat"
+  ],
+  "grid": [
+    [
+      {
+        "date": null,
+        "events": []
+      },
+      {
+        "date": null,
+        "events": []
+      },
+      {
+        "date": null,
+        "events": []
+      },
+      {
+        "date": 1,
+        "events": []
+      },
+      {
+        "date": 2,
+        "events": []
+      },
+      {
+        "date": 3,
+        "events": []
+      },
+      {
+        "date": 4,
+        "events": []
+      }
+    ],
+    [
+      {
+        "date": 5,
+        "events": []
+      },
+      {
+        "date": 6,
+        "events": []
+      },
+      {
+        "date": 7,
+        "events": []
+      },
+      {
+        "date": 8,
+        "events": []
+      },
+      {
+        "date": 9,
+        "events": []
+      },
+      {
+        "date": 10,
+        "events": []
+      },
+      {
+        "date": 11,
+        "events": []
+      }
+    ],
+    [
+      {
+        "date": 12,
+        "events": []
+      },
+      {
+        "date": 13,
+        "events": []
+      },
+      {
+        "date": 14,
+        "events": []
+      },
+      {
+        "date": 15,
+        "events": []
+      },
+      {
+        "date": 16,
+        "events": [
+          {
+            "title": "Sprint planning",
+            "tone": "primary"
+          }
+        ]
+      },
+      {
+        "date": 17,
+        "events": []
+      },
+      {
+        "date": 18,
+        "events": []
+      }
+    ],
+    [
+      {
+        "date": 19,
+        "events": []
+      },
+      {
+        "date": 20,
+        "events": [
+          {
+            "title": "Client demo",
+            "tone": "warning"
+          }
+        ]
+      },
+      {
+        "date": 21,
+        "events": []
+      },
+      {
+        "date": 22,
+        "events": []
+      },
+      {
+        "date": 23,
+        "events": []
+      },
+      {
+        "date": 24,
+        "events": [
+          {
+            "title": "Design review",
+            "tone": "info"
+          }
+        ]
+      },
+      {
+        "date": 25,
+        "events": []
+      }
+    ],
+    [
+      {
+        "date": 26,
+        "events": []
+      },
+      {
+        "date": 27,
+        "events": []
+      },
+      {
+        "date": 28,
+        "events": [
+          {
+            "title": "PM milestone due",
+            "tone": "danger"
+          }
+        ]
+      },
+      {
+        "date": 29,
+        "events": []
+      },
+      {
+        "date": 30,
+        "events": []
+      },
+      {
+        "date": 31,
+        "events": []
+      },
+      {
+        "date": null,
+        "events": []
+      }
+    ]
+  ],
+  "upcoming": [
+    {
+      "title": "Sprint planning",
+      "date": "Jul 16",
+      "time": "10:00 AM",
+      "tone": "primary"
+    },
+    {
+      "title": "Client demo",
+      "date": "Jul 20",
+      "time": "2:00 PM",
+      "tone": "warning"
+    },
+    {
+      "title": "Design review",
+      "date": "Jul 24",
+      "time": "11:30 AM",
+      "tone": "info"
+    },
+    {
+      "title": "PM milestone due",
+      "date": "Jul 28",
+      "time": "All day",
+      "tone": "danger"
+    }
+  ]
+}

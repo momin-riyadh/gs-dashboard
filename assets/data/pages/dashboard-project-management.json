@@ -1,0 +1,69 @@
+{
+  "type": "dashboard",
+  "breadcrumbs": [
+    {
+      "label": "Dashboard",
+      "href": "index.html"
+    },
+    {
+      "label": "Project Management"
+    }
+  ],
+  "title": "Project Management",
+  "subtitle": "Sprint progress, workload and milestone tracking.",
+  "stats": [
+    {
+      "label": "Active Projects",
+      "value": "18",
+      "delta": "2",
+      "direction": "up",
+      "icon": "bi-kanban",
+      "tone": "primary"
+    },
+    {
+      "label": "Tasks Completed",
+      "value": "342",
+      "delta": "11.5%",
+      "direction": "up",
+      "icon": "bi-check2-square",
+      "tone": "success"
+    },
+    {
+      "label": "Overdue Tasks",
+      "value": "9",
+      "delta": "3",
+      "direction": "down",
+      "icon": "bi-alarm",
+      "tone": "warning"
+    },
+    {
+      "label": "Team Utilization",
+      "value": "87%",
+      "delta": "4.1%",
+      "direction": "up",
+      "icon": "bi-people",
+      "tone": "info"
+    }
+  ],
+  "chart": {
+    "title": "Sprint burndown",
+    "note": "Sprint burndown over time."
+  },
+  "panel": {
+    "title": "Upcoming Deadlines",
+    "items": [
+      {
+        "title": "Launch marketing site",
+        "meta": "Due Jul 22"
+      },
+      {
+        "title": "QA regression pass",
+        "meta": "Due Jul 24"
+      },
+      {
+        "title": "Client demo prep",
+        "meta": "Due Jul 28"
+      }
+    ]
+  }
+}

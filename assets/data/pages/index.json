@@ -1,0 +1,120 @@
+{
+  "type": "dashboard",
+  "breadcrumbs": [
+    {
+      "label": "Dashboard",
+      "href": "index.html"
+    },
+    {
+      "label": "Default"
+    }
+  ],
+  "title": "Default",
+  "subtitle": "Here's what's happening across your workspace today.",
+  "stats": [
+    {
+      "label": "Total Revenue",
+      "value": "$48,290",
+      "delta": "12.4%",
+      "direction": "up",
+      "icon": "bi-graph-up-arrow",
+      "tone": "primary"
+    },
+    {
+      "label": "Active Users",
+      "value": "3,842",
+      "delta": "5.2%",
+      "direction": "up",
+      "icon": "bi-people",
+      "tone": "info"
+    },
+    {
+      "label": "Open Orders",
+      "value": "128",
+      "delta": "2.1%",
+      "direction": "down",
+      "icon": "bi-cart3",
+      "tone": "warning"
+    },
+    {
+      "label": "Support Tickets",
+      "value": "17",
+      "delta": "9.8%",
+      "direction": "down",
+      "icon": "bi-life-preserver",
+      "tone": "success"
+    }
+  ],
+  "chart": {
+    "title": "Revenue overview",
+    "note": "Wire up Chart.js / ApexCharts here \u2014 the container is already responsive."
+  },
+  "panel": {
+    "title": "Search Dropdown",
+    "items": [
+      {
+        "title": "Invoice #10234 paid",
+        "meta": "2h ago"
+      },
+      {
+        "title": "New user: Sara K.",
+        "meta": "4h ago"
+      },
+      {
+        "title": "Server backup completed",
+        "meta": "1d ago"
+      }
+    ],
+    "search": {
+      "placeholder": "Navigate to...",
+      "groups": [
+        {
+          "label": "Dashboard",
+          "items": [
+            {
+              "icon": "bi-graph-up",
+              "label": "Analytics",
+              "href": "dashboard-analytics.html"
+            },
+            {
+              "icon": "bi-shop",
+              "label": "eCommerce",
+              "href": "dashboard-ecommerce.html"
+            }
+          ]
+        },
+        {
+          "label": "Modules",
+          "items": [
+            {
+              "icon": "bi-people",
+              "label": "Users",
+              "href": "users.html"
+            },
+            {
+              "icon": "bi-file-earmark-text",
+              "label": "Invoices",
+              "href": "invoices.html"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "greeting": "Good morning, Momin",
+  "fileMenu": [
+    {
+      "icon": "bi-file-earmark-spreadsheet",
+      "label": "Export as CSV"
+    },
+    {
+      "icon": "bi-file-earmark-pdf",
+      "label": "Export as PDF"
+    },
+    {
+      "icon": "bi-upload",
+      "label": "Import data",
+      "divider_before": true
+    }
+  ]
+}

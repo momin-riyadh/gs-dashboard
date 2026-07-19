@@ -1,0 +1,18 @@
+[
+  {
+    "id": "default",
+    "label": "Default",
+    "description": "Clean Nimbus blue preset for the standard admin dashboard.",
+    "accent": "#0081CE",
+    "sidebarStyle": "light",
+    "sidebarLabel": "Light sidebar"
+  },
+  {
+    "id": "client",
+    "label": "Client",
+    "description": "Orange client-facing preset with a branded gradient sidebar.",
+    "accent": "#F97316",
+    "sidebarStyle": "gradient",
+    "sidebarLabel": "Gradient sidebar"
+  }
+]

@@ -1,0 +1,149 @@
+{
+  "type": "dashboard",
+  "breadcrumbs": [
+    {
+      "label": "Finance"
+    }
+  ],
+  "title": "Finance",
+  "subtitle": "Revenue, expenses and payouts at a glance.",
+  "stats": [
+    {
+      "label": "Total Revenue",
+      "value": "$184,200",
+      "delta": "9.1%",
+      "direction": "up",
+      "icon": "bi-graph-up",
+      "tone": "primary"
+    },
+    {
+      "label": "Total Expenses",
+      "value": "$126,450",
+      "delta": "4.3%",
+      "direction": "up",
+      "icon": "bi-receipt",
+      "tone": "warning"
+    },
+    {
+      "label": "Net Profit",
+      "value": "$57,750",
+      "delta": "14.2%",
+      "direction": "up",
+      "icon": "bi-piggy-bank",
+      "tone": "success"
+    },
+    {
+      "label": "Outstanding Invoices",
+      "value": "$12,900",
+      "delta": "5.6%",
+      "direction": "down",
+      "icon": "bi-file-earmark-text",
+      "tone": "info"
+    }
+  ],
+  "chart": {
+    "title": "Revenue vs. expenses",
+    "note": "Monthly revenue against operating expenses."
+  },
+  "panel": {
+    "title": "Accounts",
+    "items": [
+      {
+        "title": "Operating account",
+        "meta": "$142,300"
+      },
+      {
+        "title": "Payroll reserve",
+        "meta": "$48,900"
+      },
+      {
+        "title": "Tax reserve",
+        "meta": "$23,700"
+      }
+    ]
+  },
+  "table": {
+    "title": "Recent Transactions",
+    "columns": [
+      "Date",
+      "Description",
+      "Category",
+      "Amount",
+      "Status"
+    ],
+    "rows": [
+      {
+        "cells": [
+          "Jul 12, 2026",
+          "Client payment - Acme Corp",
+          "Revenue",
+          "+$14,200",
+          {
+            "badge": "Cleared",
+            "tone": "success"
+          }
+        ]
+      },
+      {
+        "cells": [
+          "Jul 11, 2026",
+          "AWS infrastructure",
+          "Hosting",
+          "-$1,860",
+          {
+            "badge": "Cleared",
+            "tone": "success"
+          }
+        ]
+      },
+      {
+        "cells": [
+          "Jul 10, 2026",
+          "Payroll - July",
+          "Payroll",
+          "-$28,400",
+          {
+            "badge": "Cleared",
+            "tone": "success"
+          }
+        ]
+      },
+      {
+        "cells": [
+          "Jul 9, 2026",
+          "Nova Industries deposit",
+          "Revenue",
+          "+$6,500",
+          {
+            "badge": "Pending",
+            "tone": "warning"
+          }
+        ]
+      },
+      {
+        "cells": [
+          "Jul 7, 2026",
+          "Office supplies",
+          "Operations",
+          "-$420",
+          {
+            "badge": "Cleared",
+            "tone": "success"
+          }
+        ]
+      },
+      {
+        "cells": [
+          "Jul 5, 2026",
+          "Ad spend - Q3 campaign",
+          "Marketing",
+          "-$3,100",
+          {
+            "badge": "Cleared",
+            "tone": "success"
+          }
+        ]
+      }
+    ]
+  }
+}

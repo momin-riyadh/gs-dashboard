@@ -1,0 +1,69 @@
+{
+  "type": "dashboard",
+  "breadcrumbs": [
+    {
+      "label": "Dashboard",
+      "href": "index.html"
+    },
+    {
+      "label": "CRM"
+    }
+  ],
+  "title": "CRM",
+  "subtitle": "Leads, deals and pipeline health across your sales team.",
+  "stats": [
+    {
+      "label": "Total Leads",
+      "value": "842",
+      "delta": "9.6%",
+      "direction": "up",
+      "icon": "bi-person-plus",
+      "tone": "primary"
+    },
+    {
+      "label": "Open Deals",
+      "value": "156",
+      "delta": "3.3%",
+      "direction": "up",
+      "icon": "bi-briefcase",
+      "tone": "info"
+    },
+    {
+      "label": "Win Rate",
+      "value": "28.4%",
+      "delta": "1.2%",
+      "direction": "up",
+      "icon": "bi-trophy",
+      "tone": "success"
+    },
+    {
+      "label": "Avg. Deal Size",
+      "value": "$12,400",
+      "delta": "0.8%",
+      "direction": "down",
+      "icon": "bi-cash",
+      "tone": "warning"
+    }
+  ],
+  "chart": {
+    "title": "Pipeline overview",
+    "note": "Deal stage progression over time."
+  },
+  "panel": {
+    "title": "Hot Leads",
+    "items": [
+      {
+        "title": "Nova Industries",
+        "meta": "$42,000 potential"
+      },
+      {
+        "title": "Bright Retail Co.",
+        "meta": "$18,500 potential"
+      },
+      {
+        "title": "Vertex Labs",
+        "meta": "$9,200 potential"
+      }
+    ]
+  }
+}

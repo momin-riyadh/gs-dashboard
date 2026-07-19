@@ -1,0 +1,82 @@
+{
+  "type": "kanban",
+  "breadcrumbs": [
+    {
+      "label": "Projects"
+    }
+  ],
+  "title": "Projects",
+  "subtitle": "Track project status, timelines and ownership across your team.",
+  "icon": "bi-briefcase",
+  "columns": [
+    {
+      "title": "To Do",
+      "cards": [
+        {
+          "title": "Redesign onboarding flow",
+          "tag": "Design",
+          "tone": "info",
+          "due": "Jul 22",
+          "avatar": "AR"
+        },
+        {
+          "title": "Set up analytics events",
+          "tag": "Engineering",
+          "tone": "primary",
+          "due": "Jul 24",
+          "avatar": "TB"
+        }
+      ]
+    },
+    {
+      "title": "In Progress",
+      "cards": [
+        {
+          "title": "Migrate billing to Stripe",
+          "tag": "Engineering",
+          "tone": "primary",
+          "due": "Jul 20",
+          "avatar": "KC"
+        },
+        {
+          "title": "Q3 content calendar",
+          "tag": "Marketing",
+          "tone": "warning",
+          "due": "Jul 21",
+          "avatar": "SK"
+        }
+      ]
+    },
+    {
+      "title": "Review",
+      "cards": [
+        {
+          "title": "API rate limiting",
+          "tag": "Engineering",
+          "tone": "primary",
+          "due": "Jul 19",
+          "avatar": "DA"
+        }
+      ]
+    },
+    {
+      "title": "Done",
+      "cards": [
+        {
+          "title": "Landing page v2",
+          "tag": "Design",
+          "tone": "info",
+          "due": "Jul 14",
+          "avatar": "LF"
+        },
+        {
+          "title": "Password reset flow",
+          "tag": "Engineering",
+          "tone": "primary",
+          "due": "Jul 12",
+          "avatar": "AR"
+        }
+      ]
+    }
+  ]
+}

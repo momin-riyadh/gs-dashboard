@@ -1,0 +1,69 @@
+{
+  "type": "dashboard",
+  "breadcrumbs": [
+    {
+      "label": "Dashboard",
+      "href": "index.html"
+    },
+    {
+      "label": "eCommerce"
+    }
+  ],
+  "title": "eCommerce",
+  "subtitle": "Sales, catalogue performance and cart behaviour.",
+  "stats": [
+    {
+      "label": "Total Sales",
+      "value": "$92,140",
+      "delta": "14.2%",
+      "direction": "up",
+      "icon": "bi-currency-dollar",
+      "tone": "primary"
+    },
+    {
+      "label": "Orders",
+      "value": "1,204",
+      "delta": "6.7%",
+      "direction": "up",
+      "icon": "bi-cart-check",
+      "tone": "info"
+    },
+    {
+      "label": "Avg. Order Value",
+      "value": "$76.50",
+      "delta": "2.1%",
+      "direction": "up",
+      "icon": "bi-receipt",
+      "tone": "success"
+    },
+    {
+      "label": "Returns",
+      "value": "32",
+      "delta": "4.4%",
+      "direction": "down",
+      "icon": "bi-arrow-return-left",
+      "tone": "warning"
+    }
+  ],
+  "chart": {
+    "title": "Sales overview",
+    "note": "Revenue and order volume over time."
+  },
+  "panel": {
+    "title": "Best Sellers",
+    "items": [
+      {
+        "title": "Wireless Headphones",
+        "meta": "342 sold"
+      },
+      {
+        "title": "Smart Watch",
+        "meta": "288 sold"
+      },
+      {
+        "title": "Desk Lamp",
+        "meta": "201 sold"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "icon": "bi-person",
+    "label": "My Profile",
+    "href": "#"
+  },
+  {
+    "icon": "bi-envelope",
+    "label": "Inbox",
+    "href": "messages.html"
+  },
+  {
+    "icon": "bi-gear",
+    "label": "Settings",
+    "href": "settings.html"
+  },
+  {
+    "icon": "bi-heart",
+    "label": "Activity",
+    "href": "#"
+  }
+]

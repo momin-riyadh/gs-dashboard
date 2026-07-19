@@ -1,0 +1,69 @@
+{
+  "type": "dashboard",
+  "breadcrumbs": [
+    {
+      "label": "Dashboard",
+      "href": "index.html"
+    },
+    {
+      "label": "SaaS"
+    }
+  ],
+  "title": "SaaS",
+  "subtitle": "MRR, churn, and subscription health for your product.",
+  "stats": [
+    {
+      "label": "MRR",
+      "value": "$58,420",
+      "delta": "7.4%",
+      "direction": "up",
+      "icon": "bi-cloud-check",
+      "tone": "primary"
+    },
+    {
+      "label": "Active Subscriptions",
+      "value": "3,210",
+      "delta": "4.9%",
+      "direction": "up",
+      "icon": "bi-people",
+      "tone": "info"
+    },
+    {
+      "label": "Churn Rate",
+      "value": "2.1%",
+      "delta": "0.3%",
+      "direction": "down",
+      "icon": "bi-arrow-down-circle",
+      "tone": "success"
+    },
+    {
+      "label": "Trial Conversions",
+      "value": "18.6%",
+      "delta": "2.2%",
+      "direction": "up",
+      "icon": "bi-stars",
+      "tone": "warning"
+    }
+  ],
+  "chart": {
+    "title": "MRR growth",
+    "note": "Monthly recurring revenue over time."
+  },
+  "panel": {
+    "title": "Plan Breakdown",
+    "items": [
+      {
+        "title": "Pro plan",
+        "meta": "1,840 subscribers"
+      },
+      {
+        "title": "Team plan",
+        "meta": "920 subscribers"
+      },
+      {
+        "title": "Enterprise",
+        "meta": "450 subscribers"
+      }
+    ]
+  }
+}

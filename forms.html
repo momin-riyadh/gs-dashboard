@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en" data-nx-theme="light" data-nx-sidebar="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Forms · Nimbus Admin</title>
+</head>
+<body>
+
+<div class="nx-app" id="nxAppRoot">
+  <div class="nx-mobile-overlay" id="nxMobileOverlay"></div>
+  <div class="nx-layout">
+    <aside class="nx-sidebar is-collapsed" id="nxSidebar">
+      <div class="nx-brand">
+        <span class="nx-brand-mark"><i class="bi bi-lightning-charge-fill"></i></span>
+        <span class="nx-brand-name">Nimbus</span>
+      </div>
+      <ul class="nx-nav" id="nxNav"></ul>
+      <div class="nx-sidebar-foot">
+        <a href="settings.html" class="nx-nav-link" style="padding-left:0">
+          <i class="bi bi-life-preserver"></i>
+          <span class="nx-nav-label">Help &amp; support</span>
+        </a>
+      </div>
+    </aside>
+    <div class="nx-main">
+      <header class="nx-topbar">
+        <button class="nx-icon-btn" id="nxSidebarToggle" aria-label="Toggle sidebar"><i class="bi bi-list"></i></button>
+        <div class="nx-search">
+          <i class="bi bi-search"></i>
+          <input type="text" placeholder="Search anything...">
+        </div>
+        <button class="nx-icon-btn nx-mobile-toggle" id="nxSearchMobileToggle" aria-label="Search"><i class="bi bi-search"></i></button>
+        <div class="nx-topbar-spacer"></div>
+        <div class="dropdown">
+          <button class="nx-icon-btn position-relative" data-bs-toggle="dropdown" aria-label="Messages"><i class="bi bi-chat-dots"></i><span class="nx-badge-dot"></span></button>
+          <div class="dropdown-menu dropdown-menu-end nx-dropdown-menu nx-dropdown-menu-lg p-0">
+            <div class="nx-dropdown-head"><span>Messages</span><a href="messages.html" class="nx-dropdown-action">View inbox</a></div>
+            <ul class="nx-dropdown-list" id="nxMsgList"></ul>
+            <div class="nx-dropdown-foot"><a href="messages.html">Open messages</a></div>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="nx-icon-btn position-relative" data-bs-toggle="dropdown" aria-label="Notifications"><i class="bi bi-bell"></i><span class="nx-badge-dot"></span></button>
+          <div class="dropdown-menu dropdown-menu-end nx-dropdown-menu nx-dropdown-menu-lg p-0">
+            <div class="nx-dropdown-head"><span>Notifications</span><a href="#" class="nx-dropdown-action">Mark all read</a></div>
+            <ul class="nx-dropdown-list" id="nxNotifList"></ul>
+            <div class="nx-dropdown-foot"><a href="#">View all notifications</a></div>
+          </div>
+        </div>
+        <button class="nx-icon-btn" id="nxCustomizerOpen" aria-label="Open theme customizer"><i class="bi bi-sliders"></i></button>
+        <div class="dropdown">
+          <button class="nx-avatar-btn" data-bs-toggle="dropdown" aria-label="Account menu"><span class="nx-avatar">MK</span></button>
+          <div class="dropdown-menu dropdown-menu-end nx-dropdown-menu nx-profile-menu p-2">
+            <div id="nxProfileLinks"></div>
+            <hr class="nx-dropdown-divider">
+            <a class="nx-dropdown-link text-danger" href="#"><i class="bi bi-box-arrow-right"></i><span>Sign Out</span></a>
+          </div>
+        </div>
+      </header>
+      <main class="nx-content" id="nxPageContent" data-nx-data="assets/data/pages/forms.json" data-nx-switcher="full">
+
+        <nav class="nx-breadcrumb mb-3" data-nx-if="breadcrumbs" data-nx-widget="breadcrumb"></nav>
+        <div class="nx-page-header">
+          <span class="nx-stat-icon tone-primary" data-nx-if="icon"><i class="bi" data-nx-classtpl="{icon}"></i></span>
+          <div class="nx-page-header-text">
+            <h3 data-nx-text="title"></h3>
+            <p class="mb-0 text-muted" style="font-size:.85rem" data-nx-text="subtitle"></p>
+          </div>
+        </div>
+        <div data-nx-list="sections">
+          <template>
+            <div class="nx-card nx-form-section">
+              <div class="nx-card-head"><h6 class="mb-0 nx-display" data-nx-text="title"></h6></div>
+              <div class="nx-card-body" data-nx-list="fields">
+                <template><div data-nx-widget="formfield"></div></template>
+              </div>
+            </div>
+          </template>
+        </div>
+        <button class="btn btn-nx-primary mt-3">Save changes</button>
+      </main>
+      <footer class="nx-footer">
+        &copy; Copyright 2026 - Powered by gPlex. All rights reserved.
+      </footer>
+    </div>
+  </div>
+    <div class="nx-customizer-backdrop" id="nxCustomizerBackdrop"></div>
+    <aside class="nx-customizer" id="nxCustomizer">
+      <div class="nx-customizer-head">
+        <h5 class="mb-0 nx-display">Customize</h5>
+        <button class="nx-icon-btn" id="nxCustomizerClose" aria-label="Close"><i class="bi bi-x-lg"></i></button>
+      </div>
+      <div class="nx-customizer-body">
+        <div class="nx-customizer-group">
+          <div class="nx-customizer-group-title">Mode</div>
+          <div class="nx-option-cards" data-nx-group="mode">
+            <div class="nx-option-card" data-nx-value="light"><i class="bi bi-sun"></i>Light</div>
+            <div class="nx-option-card" data-nx-value="dark"><i class="bi bi-moon-stars"></i>Dark</div>
+            <div class="nx-option-card" data-nx-value="system"><i class="bi bi-circle-half"></i>System</div>
+          </div>
+        </div>
+        <div class="nx-customizer-group">
+          <div class="nx-customizer-group-title">Theme</div>
+          <div class="nx-option-cards nx-theme-grid" data-nx-group="theme" id="nxThemeCards"></div>
+        </div>
+        <div class="nx-customizer-group">
+          <div class="nx-customizer-group-title">Direction</div>
+          <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" id="nxRtlSwitch">
+            <label class="form-check-label" for="nxRtlSwitch" style="font-size:.85rem">Right to left (RTL)</label>
+          </div>
+        </div>
+      </div>
+    </aside>
+  <div class="nx-flyout" id="nxFlyout"></div>
+  <div class="nx-flyout nx-flyout-2" id="nxFlyout2"></div>
+  <div class="nx-tooltip" id="nxTooltip"></div>
+</div>
+
+<script type="module" src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+{
+  "type": "dashboard",
+  "breadcrumbs": [
+    {
+      "label": "Dashboard",
+      "href": "index.html"
+    },
+    {
+      "label": "AI Insights"
+    }
+  ],
+  "title": "AI Insights",
+  "subtitle": "Automated summaries and anomaly detection across your data.",
+  "stats": [
+    {
+      "label": "Automations Run",
+      "value": "4,802",
+      "delta": "22.4%",
+      "direction": "up",
+      "icon": "bi-robot",
+      "tone": "primary"
+    },
+    {
+      "label": "Anomalies Detected",
+      "value": "6",
+      "delta": "2",
+      "direction": "down",
+      "icon": "bi-exclamation-diamond",
+      "tone": "warning"
+    },
+    {
+      "label": "Avg. Confidence",
+      "value": "94.2%",
+      "delta": "1.1%",
+      "direction": "up",
+      "icon": "bi-graph-up-arrow",
+      "tone": "success"
+    },
+    {
+      "label": "Time Saved",
+      "value": "126 hrs",
+      "delta": "18.9%",
+      "direction": "up",
+      "icon": "bi-clock-history",
+      "tone": "info"
+    }
+  ],
+  "chart": {
+    "title": "Automation volume",
+    "note": "Automations run per day."
+  },
+  "panel": {
+    "title": "Recent Automations",
+    "items": [
+      {
+        "title": "Weekly report summary generated",
+        "meta": "2h ago"
+      },
+      {
+        "title": "Anomaly flagged in checkout funnel",
+        "meta": "5h ago"
+      },
+      {
+        "title": "Lead scoring model retrained",
+        "meta": "1d ago"
+      }
+    ]
+  }
+}
