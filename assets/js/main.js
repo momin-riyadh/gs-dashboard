@@ -12,6 +12,6 @@ import '../vendor/bootstrap/bootstrap.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import '../css/custom.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import { initNimbusAdmin } from './hydrate.js';
+import { initGenuityAdmin } from './hydrate.js';
 
-initNimbusAdmin();
+initGenuityAdmin();

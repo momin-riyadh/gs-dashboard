@@ -2,7 +2,7 @@
   {
     "id": "default",
     "label": "Default",
-    "description": "Clean Nimbus blue preset for the standard admin dashboard.",
+    "description": "Clean Genuity blue preset for the standard admin dashboard.",
     "accent": "#0081CE",
     "sidebarStyle": "light",
     "sidebarLabel": "Light sidebar"

@@ -1,4 +1,4 @@
-# Nimbus Admin — HTML/Bootstrap 5 + Vite build
+# Genuity Admin — HTML/Bootstrap 5 + Vite build
 
 Mobile-first admin theme with local Bootstrap 5 assets bundled by Vite. Page
 markup stays in each HTML file, while editable content stays isolated as JSON
@@ -89,7 +89,7 @@ the page's `data-nx-data` JSON, fills the markup, and never builds layout itself
 
 Vite loads `assets/js/main.js`, which imports local fonts, the **local
 Bootstrap CSS** (`assets/vendor/bootstrap/bootstrap.css`), Bootstrap Icons,
-`assets/css/custom.css`, Bootstrap's JS bundle, then calls `initNimbusAdmin()`
+`assets/css/custom.css`, Bootstrap's JS bundle, then calls `initGenuityAdmin()`
 from `assets/js/hydrate.js`. Each page's content skeleton is authored to match
 its JSON `"type"`:
 

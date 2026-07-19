@@ -1,5 +1,5 @@
 /* ==========================================================================
-   NIMBUS ADMIN — hydrate.js
+   Genuity ADMIN — hydrate.js
    Every page now OWNS its full markup (chrome + content) as static HTML. This
    module does NOT build layout; it only pours JSON data into that markup:
 
@@ -33,7 +33,7 @@
    NOTE: fetch() of local JSON requires http(s) — run `npm run dev` (Vite),
    don't open the files from disk (file://).
    ========================================================================== */
-export async function initNimbusAdmin() {
+export async function initGenuityAdmin() {
   const STORAGE = {
     mode: 'nx-theme-mode',
     theme: 'nx-theme-preset',
